@@ -95,7 +95,7 @@ const App = () => {
 
   return (
     <div className="game">
-      <h1>Tic Tac Toe NEW</h1>
+      <h1 className='title'>Tic Tac Toe</h1>
       {winner && <h2>Winner: {winner}</h2>}
       <div className="game-board">
         {grids.map((grid, gridIndex) => (
